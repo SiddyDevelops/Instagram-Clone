@@ -1,0 +1,10 @@
+#Fri May 07 15:27:04 IST 2021
+base.2=C\:\\Users\\siddh\\AndroidStudioProjects\\InstagramClone\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes3.dex
+path.2=classes3.dex
+base.1=C\:\\Users\\siddh\\AndroidStudioProjects\\InstagramClone\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes2.dex
+path.1=classes2.dex
+base.0=C\:\\Users\\siddh\\AndroidStudioProjects\\InstagramClone\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex
