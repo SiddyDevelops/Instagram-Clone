@@ -19,7 +19,7 @@ import com.parse.ParseObject;
 import com.parse.ParseUser;
 import com.parse.SaveCallback;
 
-//Pass default: MuG0Mrdip22a
+
 
 public class StarterApplication extends Application {
 
@@ -31,31 +31,17 @@ public class StarterApplication extends Application {
     Parse.enableLocalDatastore(this);
 
     // Add your initialization code here
+    /*
+          This part of code is hidden as it consits of sensitive information about the server.
+    */
     Parse.initialize(new Parse.Configuration.Builder(getApplicationContext())
             .applicationId("myappID")
-            .clientKey("MuG0Mrdip22a")
-            .server("http://18.219.64.175/parse/")
+            .clientKey("************")
+            .server("************??/**")
             .build()
     );
 
-    /*
-    ParseObject object = new ParseObject("Test");
-    object.put("muNumber","123");
-    object.put("myString","siddy");
-
-    object.saveInBackground(new SaveCallback() {
-      @Override
-      public void done(ParseException e) {
-        if(e == null)
-        {
-          Log.i("Build","scucess");
-        }else{
-          e.printStackTrace();
-        }
-      }
-    });
-
-    */
+    
     ParseUser.enableAutomaticUser();
 
     ParseACL defaultACL = new ParseACL();
